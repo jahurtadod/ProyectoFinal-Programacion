@@ -17,9 +17,13 @@ public class generador {
     }
 
     public int[] desordenada() {
-        // Aqui se carca el archivo deshordenado.txt
-        for (int i = 0; i < this.lista.length; i++) {
-            this.lista[i] = (int) (Math.random() * 10) + 1;
+        // Aqui se carca el archivo deshordenado
+        int[] lista = new int [5000];
+        CargarLista a = new CargarLista();
+        String preLis = a.leerTxt("ListaD.txt");
+        String[] lista1 = preLis.split(" ");
+        for (int i = 0; i < lista.length; i++){
+            this.lista[i] = Integer.parseInt(lista1[i]);
         }
         return this.lista;
     }
