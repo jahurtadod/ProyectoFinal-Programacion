@@ -1,16 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * @license
+ * Copyright (c) 2017 Bruno Esparza, Jorge Hurtado
+ *
+ * Use of this source code is governed by an MIT-style license that can be found in
+ * the LICENSE file at https://github.com/baesparza/ProyectoFinal-Programacion/blob/master/LICENSE
  */
 package generador;
 
 import java.io.*;
 
-/**
- *
- * @author jahur
- */
 public class CargarLista {
     
     public String leerTxt(String nombreArchivo){ //direccion del archivo
